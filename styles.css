@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+.hero-text {
+    background: #F3EED9;
+    /* border: 1px solid green; */
+    min-height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    max-width: 750px;
+    margin: 0 auto;
+    /* border: 1px solid blue; */
+}
+
+   .hero-text h1 {
+    text-align: center;
+    font-size: 4em;
+    font-family: 'Playfair Display', serif;
+    padding-top: 0;
+    margin-top: 0.2em;
+    color: #824936;
+}
+
+.hero-text p {
+    text-align: center;
+    font-size: 1.1em;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    font-weight: lighter;
+    margin-bottom: 0;
+    color: #824936;
+}
+
+.quality-designs h2 {
+    text-align: center;
+}
+
+.flex {
+    width: 80%;
+    /* border: 1px solid green; */
+    margin: 0 auto;
+    display: flex;
+    gap: 3em;
+    padding-bottom: 3em;
+}
+
+.flex div {
+    width: 40%;
+}
+
+.flex p {
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    color: #222C2A;
+    line-height: 1.5em;
+}
+
+.quality-designs h2 {
+    font-size: 2em;
+    color: #824936;
+    padding-top: 2em;
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+.made-custom {
+    background: #222C2A;
+}
+
+.made-custom h2 {
+    padding-top: 3em;
+    color: #fff;
+    font-size: 2em;
+    font-family: 'Playfair Display', serif;
+}
+
+.made-custom p {
+    color: #fff;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.made-custom .text {
+    width: 40%;
+}
+
+.made-custom img {
+    max-width: 100%;
+    padding-top: 3em;
+}
+
+
+.created {
+    background: #824936;
+}
+
+.created .text {
+    width: 40%;
+    margin-top: 3em;
+    
+}
+
+.created img {
+   max-width: 100%;
+    margin-top: 4em;
+}
+
+.created p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    color: #fff;
+    line-height: 1.5em;
+}
+
+.created h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2em;
+    color: #fff;
+   
+}
